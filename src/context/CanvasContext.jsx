@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
 import { useNetwork, useNetworkEvent } from './NetworkContext';
-import { FileTransfer } from '../lib/fileTransfer';
+import { FileTransfer } from '../lib/FileTransfer';
 import { uid } from '../lib/utils';
 import { showToast } from '../lib/Toast';
 import { updateRemoteCursor, hideRemoteCursor, removeRemoteCursor } from '../lib/CursorStore';
