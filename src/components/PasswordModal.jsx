@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Lock } from 'lucide-react';
-import { usePasswordPrompt, closePasswordPrompt } from '../lib/passwordPrompt';
+import { usePasswordPrompt, closePasswordPrompt } from '../lib/PasswordPrompt';
 import { AUTH_MIN_LENGTH } from '../config/constats';
 
 const INPUT_CLASS = 'w-full rounded-md border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 px-3 py-2.5 text-sm text-slate-800 dark:text-slate-100 outline-none focus:border-pink-400 transition-colors';

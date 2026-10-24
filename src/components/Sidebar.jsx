@@ -1,7 +1,7 @@
 import { X, Laptop, Trash2 } from 'lucide-react';
 import { useNetwork } from '../context/NetworkContext';
 import { useCanvas } from '../context/CanvasContext';
-import { askPassword } from '../lib/passwordPrompt';
+import { askPassword } from '../lib/PasswordPrompt';
 import { showToast } from '../lib/Toast';
 import PeersList from '../PeersList';
 import NetworkMap from './NetworkMap';
