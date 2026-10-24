@@ -1,5 +1,5 @@
 import { Laptop, File as FileIcon } from 'lucide-react';
-import { useTransfers } from '../lib/xferStore';
+import { useTransfers } from '../lib/XFerstore';
 
 export default function TransferLayer() {
   const items = useTransfers();

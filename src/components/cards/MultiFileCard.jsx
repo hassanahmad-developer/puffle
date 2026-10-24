@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Trash2, File as FileIcon, Download } from 'lucide-react';
 import { useCanvas } from '../../context/CanvasContext';
 import { useCardInteractions } from '../UseCardInteractions';
-import { downloadFile, downloadAsZip } from '../../lib/dropUtils';
+import { downloadFile, downloadAsZip } from '../../lib/DropUtils';
 import { formatKB } from '../../lib/utils';
 
 export default function MultiFileCard({ card, selected }) {
