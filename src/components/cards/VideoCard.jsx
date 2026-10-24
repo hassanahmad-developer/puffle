@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { PhoneOff } from 'lucide-react';
 import { useCanvas } from '../../context/CanvasContext';
 import { useCardInteractions } from '../UseCardInteractions';
-import { showToast } from '../../lib/toast';
+import { showToast } from '../../lib/Toast';
 
 export default function VideoCard({ card, selected }) {
   const { selectCard, removeCard, stopVideoCall } = useCanvas();

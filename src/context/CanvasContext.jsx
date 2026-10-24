@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useRef, useState } f
 import { useNetwork, useNetworkEvent } from './NetworkContext';
 import { FileTransfer } from '../lib/fileTransfer';
 import { uid } from '../lib/utils';
-import { showToast } from '../lib/toast';
+import { showToast } from '../lib/Toast';
 import { updateRemoteCursor, hideRemoteCursor, removeRemoteCursor } from '../lib/cursorStore';
 import { collectDroppedFiles, createFolderArchive } from '../lib/DropUtils';
 import { MIN_SCALE, MAX_SCALE, ZOOM_STEP_BUTTON } from '../config/constats';

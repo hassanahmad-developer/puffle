@@ -1,4 +1,4 @@
-import { useToasts } from '../lib/toast';
+import { useToasts } from '../lib/Toast';
 
 export default function ToastLayer() {
   const toasts = useToasts();
