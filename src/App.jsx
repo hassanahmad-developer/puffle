@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { PanelRight } from 'lucide-react';
 import { NetworkProvider, useNetworkEvent } from './context/NetworkContext';
 import { CanvasProvider, useCanvas } from './context/CanvasContext';
-import { showToast } from './lib/toast';
+import { showToast } from './lib/Toast';
 import Canvas from './components/Canvas';
 import CursorLayer from './components/CursorLayer';
 import TransferLayer from './components/TransferLayer';
