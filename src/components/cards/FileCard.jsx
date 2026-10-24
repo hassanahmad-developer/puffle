@@ -3,7 +3,7 @@ import { Trash2, File as FileIcon, Download } from 'lucide-react';
 import { useCanvas } from '../../context/CanvasContext';
 import { useCardInteractions } from '../UseCardInteractions';
 import { downloadFile } from '../../lib/DropUtils';
-import { formatKB } from '../../lib/DropUtils';
+import { formatKB } from '../../lib/utils';
 
 export default function FileCard({ card, selected }) {
   const { selectCard, removeCard } = useCanvas();

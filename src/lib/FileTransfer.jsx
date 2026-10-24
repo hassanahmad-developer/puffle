@@ -1,6 +1,6 @@
 import { FILE_CHUNK_SIZE, MAX_BUFFERED_AMOUNT } from '../config/constats';
 import { uid } from './utils';
-import { xferStart, xferProgress, xferFinish, xferRemove } from './xferStore';
+import { xferStart, xferProgress, xferFinish, xferRemove } from './XFerstore';
 
 /**
  * Chunked file send/receive (original packet format same):

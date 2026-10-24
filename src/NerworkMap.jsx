@@ -1,6 +1,6 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 import { hierarchy, tree } from 'd3-hierarchy';
-import { useNetwork } from '../context/NetworkContext';
+import { useNetwork } from './context/NetworkContext';
 
 export default function NetworkMap() {
   const { myRole, myName, peers, activeHostId, isHostConnected, onlineClients } = useNetwork();
