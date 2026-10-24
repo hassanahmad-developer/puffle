@@ -1,4 +1,4 @@
-import { useRemoteCursors } from '../lib/cursorStore';
+import { useRemoteCursors } from '../lib/CursorStore';
 import { useCanvas } from '../context/CanvasContext';
 import { colorFor } from '../lib/utils';
 
